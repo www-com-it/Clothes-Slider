@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+    font-family: Inter;
+    background-color: #65747b;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+img {
+    transform: scale(0.9);
+    margin-left: 50px;
+}
+
+#prima-maglia {
+    margin-left: 90px;
+}
+
+#prima {
+    margin-left: 50px;
+}
+
+#ultima {
+    margin-right: 25px;
+}
+
+#ultimo-panta {
+    margin-right: 80px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*! CONTAINER MAGLIE */
+.maglie {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0;
+    gap: 40px;
+    height: 300px;
+}
+
+.slider img {
+    height: 290px;
+}
+
+/*! CONTAINER PANTALONI */
+.slider-two {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    height: 300px;
+}
+
+.slider-two img {
+    height: 290px;
+}
